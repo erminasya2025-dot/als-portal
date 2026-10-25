@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="bs">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ALS — Algology Learning System: obrazovni portal za učenje, istraživanje i povezivanje znanja o algama i cijanobakterijama.">
+<title>ALS — Algology Learning System</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home" aria-label="ALS početna"><span class="brandmark">A<span>●</span>S</span><span class="brandtext"><b>ALS</b><small>Algology Learning System</small></span></a>
+  <button class="menu-toggle" aria-label="Otvori meni" onclick="document.querySelector('.nav').classList.toggle('open')">☰</button>
+  <nav class="nav"><a href="#home">Početna</a><a href="#moduli">Moduli</a><a href="#leksikon">Leksikon</a><a href="#biblioteka">Biblioteka</a><a href="#novosti">Novosti</a><a href="#onama">O ALS-u</a></nav>
+  <label class="search"><span>⌕</span><input id="siteSearch" placeholder="Pretraži ALS…" aria-label="Pretraži portal"></label>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="hero-content">
+    <p class="eyebrow">ZNANJE · ISTRAŽIVANJE · ODRŽIVA BUDUĆNOST</p>
+    <h1>ALS</h1><h2>Algology Learning System</h2>
+    <p class="intro">Integrativni obrazovni portal za učenje, istraživanje i povezivanje znanja o algama, cijanobakterijama i njihovom značaju za prirodu i čovjeka.</p>
+    <a class="button" href="#moduli">Istraži module <span>→</span></a>
+  </div>
+  <div class="hero-art" aria-hidden="true"><div class="orb orb1"></div><div class="orb orb2"></div><div class="cell cell1"></div><div class="cell cell2"></div><div class="cell cell3"></div><div class="hero-caption">Mikroskopski svijet,<br>velike poveznice.</div></div>
+</section>
+<section class="section modules" id="moduli">
+  <div class="section-heading"><div><p class="eyebrow">ISTRAŽI I UČI</p><h2>Četiri stuba algologije</h2></div><p>Od temeljnih pojmova do povezivanja savremenih istraživačkih pristupa.</p></div>
+  <div class="card-grid">
+    <article class="module-card" data-search="sistematika taksonomija klasifikacija raznolikost"><div class="card-image diatom"><span>◈</span></div><div class="card-body"><p class="card-kicker">MODUL 01</p><h3>Sistematika algi</h3><p>Raznolikost, klasifikacija, evolucija i taksonomski principi svijeta algi.</p><a href="#sistematika">Otvori modul <b>→</b></a></div></article>
+    <article class="module-card" data-search="ekologija biodiverzitet klima ekosistemi"><div class="card-image water"><span>≈</span></div><div class="card-body"><p class="card-kicker">MODUL 02</p><h3>Ekologija algi</h3><p>Alge u ekosistemima, biodiverzitet, bioindikacija i klimatske promjene.</p><a href="#ekologija">Otvori modul <b>→</b></a></div></article>
+    <article class="module-card" data-search="primijenjena biotehnologija industrija zaštita okoliša"><div class="card-image green"><span>⌬</span></div><div class="card-body"><p class="card-kicker">MODUL 03</p><h3>Primijenjena algologija</h3><p>Primjena algi u biotehnologiji, istraživanju i zaštiti okoliša.</p><a href="#primijenjena">Otvori modul <b>→</b></a></div></article>
+    <article class="module-card" data-search="integrativna interdisciplinarno metode znanje"><div class="card-image network"><span>✣</span></div><div class="card-body"><p class="card-kicker">MODUL 04</p><h3>Integrativna algologija</h3><p>Povezivanje znanja, interdisciplinarni pristup i savremene metode istraživanja.</p><a href="#integrativna">Otvori modul <b>→</b></a></div></article>
+  </div>
+</section>
+<section class="content-band section">
+  <article class="feature" id="izdvojeno"><div class="feature-visual"><span class="waterline"></span><span class="feature-tag">ISTAKNUTO</span></div><div class="feature-copy"><p class="eyebrow">IZDVOJENI SADRŽAJ</p><h2>Alge — ključni indikatori zdravlja vodenih ekosistema</h2><p>Kako alge govore o kvalitetu vode i šta nam njihova prisutnost otkriva o promjenama u okolišu.</p><a href="#ekologija" class="text-link">Istraži temu →</a></div></article>
+  <div class="news" id="novosti"><div class="section-heading compact"><div><p class="eyebrow">OSTANI INFORMISAN</p><h2>Novosti i sadržaji</h2></div></div>
+    <a class="news-item" href="#biblioteka"><span class="news-icon">▤</span><span><small>NASTAVNI RESURSI</small><b>Vodiči za učenje i istraživanje</b><em>Materijali za samostalni rad i nastavu.</em></span><span>→</span></a>
+    <a class="news-item" href="#leksikon"><span class="news-icon">⌕</span><span><small>ALGološki LEKSIKON</small><b>Otkrij stručne pojmove</b><em>Od osnovnih definicija do naprednih koncepata.</em></span><span>→</span></a>
+    <a class="news-item" href="#onama"><span class="news-icon">✧</span><span><small>ALS PLATFORMa</small><b>Učenje koje povezuje discipline</b><em>Upoznaj filozofiju i strukturu sistema.</em></span><span>→</span></a>
+  </div>
+</section>
+<section class="section resource-section" id="leksikon">
+  <div class="section-heading"><div><p class="eyebrow">POJMOVI I KONCEPTI</p><h2>Algološki leksikon</h2></div><p>Brzi pregled odabranih pojmova. Pretraži ih ili istraži povezane module.</p></div>
+  <div class="term-grid" id="termGrid">
+    <article class="term" data-search="alga alge definicija"><span class="term-letter">A</span><h3>Alge</h3><p>Raznolika grupa fotosintetskih organizama koji imaju važnu ulogu u primarnoj produkciji i kruženju materije.</p><a href="#sistematika">Sistematika →</a></article>
+    <article class="term" data-search="cijanobakterije fotosinteza bakterije"><span class="term-letter">C</span><h3>Cijanobakterije</h3><p>Fotosintetske bakterije koje su važne za primarnu produkciju i evolucijsku historiju fotosinteze.</p><a href="#ekologija">Ekologija →</a></article>
+    <article class="term" data-search="dijatomeje bacillariophyta silikat"><span class="term-letter">D</span><h3>Dijatomeje</h3><p>Mikroskopske alge prepoznatljive po ćelijskom zidu od silicijevog dioksida, česte u vodenim staništima.</p><a href="#sistematika">Sistematika →</a></article>
+    <article class="term" data-search="bioindikacija indikator okoliš voda"><span class="term-letter">B</span><h3>Bioindikacija</h3><p>Procjena stanja okoliša pomoću organizama ili zajednica čija prisutnost i struktura odražavaju uslove sredine.</p><a href="#ekologija">Ekologija →</a></article>
+  </div>
+  <p class="search-empty" id="searchEmpty" hidden>Nema rezultata. Pokušaj drugi pojam.</p>
+</section>
+<section class="section library" id="biblioteka"><div class="library-icon">▤</div><div><p class="eyebrow">ZNANJE NA JEDNOM MJESTU</p><h2>Biblioteka i multimedija</h2><p>Prostor za naučne radove, knjige, nastavne materijale, mikrofotografije, videozapise i prezentacije. Sadržaji se mogu dodavati kako ALS bude rastao.</p></div><a class="button button-outline" href="mailto:als.portal@example.com?subject=ALS%20biblioteka">Predloži resurs ↗</a></section>
+<section class="section about" id="onama"><p class="eyebrow">O SISTEMU</p><h2>Algologija kao povezano znanje.</h2><p>ALS (Algology Learning System) zamišljen je kao modularno obrazovno okruženje koje povezuje teorijske osnove, ekološko razumijevanje, primjene i integrativne istraživačke pristupe u algologiji.</p><div class="about-pills"><span>Teorija</span><span>Istraživanje</span><span>Povezivanje znanja</span><span>Cjeloživotno učenje</span></div></section>
+<section class="module-details section" id="sistematika"><h2>Sistematika algi</h2><p>Osnovni pojmovi · Raznolikost i evolucija · Taksonomski pristupi · Pregled glavnih grupa</p></section>
+<section class="module-details section" id="ekologija"><h2>Ekologija algi</h2><p>Ekološke uloge · Vodeni ekosistemi · Bioindikacija · Klimatske promjene</p></section>
+<section class="module-details section" id="primijenjena"><h2>Primijenjena algologija</h2><p>Biotehnologija · Praćenje okoliša · Bioprodukti · Održiva rješenja</p></section>
+<section class="module-details section" id="integrativna"><h2>Integrativna algologija</h2><p>Interdisciplinarnost · Integracija podataka · Savremene metode · Sistemsko razmišljanje</p></section>
+</main>
+<footer><a class="brand footer-brand" href="#home"><span class="brandmark">A<span>●</span>S</span><span class="brandtext"><b>ALS</b><small>Algology Learning System</small></span></a><p>ALGE POVEZUJU ZNANOST, PRIRODU I BUDUĆNOST.</p><small>© <span id="year"></span> ALS · Obrazovni portal u razvoju</small></footer>
+<script src="script.js"></script>
+</body></html>
